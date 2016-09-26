@@ -50,7 +50,7 @@
              })
           );
 
-		  /////////////////////////////
+		      /////////////////////////////
           /////// ADSBEXCHANGE //////
           /////////////////////////////
           VRS.LinkSite["ahADSBExchangeDotCom"] = "adsbexchangecom";
@@ -66,7 +66,7 @@
              })
           );
 
-		  /////////////////////////////
+		      /////////////////////////////
           /////// TRAFEGOAEREO //////
           /////////////////////////////
           VRS.LinkSite["ahTrafegoAereoDotCom"] = "trafegoaereocom";
@@ -211,7 +211,7 @@
           );
 
           ///////////////////////////////
-          /* AIRTEAMIMAGES.COM */
+          ////// AIRTEAMIMAGES.COM //////
           ///////////////////////////////
           VRS.LinkSite["ahAirTeamImagesDotCom"] = "airteamimages.com";
           VRS.linkRenderHandlers.push(
@@ -242,9 +242,9 @@
              })
           );
 
-          /////////////////////////
-          ///// JETPHOTOS.NET /////
-          /////////////////////////
+          //////////////////////////
+          /// AVIATIONCORNER.NET ///
+          //////////////////////////
           VRS.LinkSite["ahAviationCornerDotNet"] = "aviationcornernet";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
