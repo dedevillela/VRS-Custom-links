@@ -50,14 +50,14 @@
              })
           );
 
-/////////////////////////////
+		  /////////////////////////////
           /////// ADSBEXCHANGE //////
           /////////////////////////////
           VRS.LinkSite["ahADSBExchangeDotCom"] = "adsbexchangecom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahADSBExchangeDotCom,
-                displayOrder:       3,
+                displayOrder:       4,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.icao.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.icao.chg},
                 title:              'ADS-B Exchange',
@@ -66,14 +66,14 @@
              })
           );
 
-/////////////////////////////
+		  /////////////////////////////
           /////// TRAFEGOAEREO //////
           /////////////////////////////
           VRS.LinkSite["ahTrafegoAereoDotCom"] = "trafegoaereocom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahTrafegoAereoDotCom,
-                displayOrder:       3,
+                displayOrder:       5,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.icao.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.icao.chg},
                 title:              'TrafegoAereo',
@@ -89,7 +89,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahFlightAwareDotCom,
-                displayOrder:       4,
+                displayOrder:       6,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val || aircraft.callsign.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg || aircraft.callsign.chg; },
                 title:              'FlightAware',
@@ -105,7 +105,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahSerialRegistryDotFaaDotOrg,
-                displayOrder:       5,
+                displayOrder:       7,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.serial.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.serial.chg},
                 title:              'Serial (FAA)',
@@ -121,7 +121,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahNNumberRegistryDotFaaDotOrg,
-                displayOrder:       6,
+                displayOrder:       8,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.serial.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.serial.chg},
                 title:              'N Number (FAA)',
@@ -137,7 +137,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.RAB_info,
-                displayOrder:       7,
+                displayOrder:       9,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'RAB (ANAC)',
@@ -153,7 +153,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahJakaFotografia,
-                displayOrder:       8,
+                displayOrder:       10,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'JakaFotografia',
@@ -169,7 +169,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahPilotoDeAviaoDotCom,
-                displayOrder:       9,
+                displayOrder:       11,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'PilotoDeAvião',
@@ -185,7 +185,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahFlickrDotCom,
-                displayOrder:       10,
+                displayOrder:       12,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'Flickr',
@@ -201,7 +201,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahGoogleImages,
-                displayOrder:       11,
+                displayOrder:       13,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'Google',
@@ -217,7 +217,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahAirTeamImagesDotCom,
-                displayOrder:       12,
+                displayOrder:       14,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'AirTeamImages',
@@ -233,7 +233,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahLKPDDotInfo,
-                displayOrder:       13,
+                displayOrder:       15,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg},
                 title:              'LKPDinfo',
@@ -249,7 +249,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahAviationCornerDotNet,
-                displayOrder:       14,
+                displayOrder:       16,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'AviationCorner',
@@ -265,7 +265,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahPlaneSpottersHubDotCom,
-                displayOrder:       15,
+                displayOrder:       17,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'PlaneSpotersHub',
@@ -281,7 +281,7 @@
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahEuroControl,
-                displayOrder:       16,
+                displayOrder:       18,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.modelIcao.val); },
                 hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.chg; },
                 title:              'Eurocontrol',
