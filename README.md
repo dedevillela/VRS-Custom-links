@@ -1,5 +1,5 @@
 # VRS-Custom-links [![MIT License](http://b.repl.ca/v1/License-MIT-red.png)](LICENSE) [![VRS version 2.4](http://b.repl.ca/v1/VRS_version-2.4-blue.png)](http://virtualradarserver.co.uk/Download.aspx) [![ADS-B Mode-S](http://b.repl.ca/v1/ADS--B-Mode--S-lightgrey.png)](#)
-Custom links for Virtual Radar Server. This plug-in add new links to the Detail panel, that may help identify new aircraft or find pictures to the existing ones.
+Custom links for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Virtual Radar Server's Homepage") (a.k.a. VRS). This plug-in add new links to the Detail panel, that may help identify new aircraft or find pictures to the existing ones.
 
 ##Prerequisites
 - VRS installed and running
@@ -18,7 +18,7 @@ Feel free to download and share these files, suggest corrections, or send reques
 
 [![VRS Operator Flags](http://b.repl.ca/v1/VRS-Operator_Flags-red.png)](https://github.com/dedevillela/VRS-Operator-Flags)
 
-[![VRS Country Flags](http://b.repl.ca/v1/VRS-Country_Flags-red.png)](https://github.com/dedevillela/VRS-Country-Flags)
+[![VRS Country Flags](http://b.repl.ca/v1/VRS-Country_Flags-green.png)](https://github.com/dedevillela/VRS-Country-Flags)
 
 [![VRS Silhouettes](http://b.repl.ca/v1/VRS-Silhouettes-brightgreen.png)](https://github.com/dedevillela/VRS-Silhouettes)
 
