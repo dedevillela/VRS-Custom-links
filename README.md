@@ -12,7 +12,7 @@ Custom links for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Vi
 
 ##Contributions
 
-Feel free to download and share these files, suggest corrections, or send requests for more country flags, as I'm constantly updating this repository until all countries are available.
+Feel free to download and share these files, suggest corrections, or send requests for more aviation links, as I'm constantly updating this repository with new usefull resources.
 
 ##Other Projects
 
