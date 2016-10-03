@@ -50,7 +50,7 @@
              })
           );
 
-		      /////////////////////////////
+	  /////////////////////////////
           /////// ADSBEXCHANGE //////
           /////////////////////////////
           VRS.LinkSite["ahADSBExchangeDotCom"] = "adsbexchangecom";
@@ -66,7 +66,7 @@
              })
           );
 
-		      /////////////////////////////
+	  /////////////////////////////
           /////// TRAFEGOAEREO //////
           /////////////////////////////
           VRS.LinkSite["ahTrafegoAereoDotCom"] = "trafegoaereocom";
