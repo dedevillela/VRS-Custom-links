@@ -18,6 +18,8 @@ Feel free to download and share these files, suggest corrections, or send reques
 
 [![VRS Operator Flags](https://img.shields.io/badge/VRS-Operator_Flags-red.svg)](https://github.com/dedevillela/VRS-Operator-Flags)
 
-[![VRS Silhouettes](https://img.shields.io/badge/VRS-Silhouettes-brightgreen.svg)](https://github.com/dedevillela/VRS-Silhouettes)
+[![VRS Aircraft Markers](https://img.shields.io/badge/VRS-Aircraft_Markers-orange.svg)](https://github.com/dedevillela/VRS-Aircraft-Markers)
 
 [![VRS Country Flags](https://img.shields.io/badge/VRS-Country_Flags-green.svg)](https://github.com/dedevillela/VRS-Country-Flags)
+
+[![VRS Silhouettes](https://img.shields.io/badge/VRS-Silhouettes-brightgreen.svg)](https://github.com/dedevillela/VRS-Silhouettes)
