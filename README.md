@@ -10,7 +10,7 @@ Custom links for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Vi
 - Configure the VRS Custom Content Plugin to add the "CustomLink.js" file into the END of HEAD portion of the pages, with an " * " (without quotes and spaces) on the Address field, so it will populate the links on all pages (including reports).
 - Enjoy!
 
-##Acknowledgments (Agradecimentos)
+##Acknowledgments
 This project was only possible thanks to the invaluable help of many individuals and communities, especially the creator of the VRS, Andrew Whewell, always solicitous in [![his forum](https://img.shields.io/badge/VRS-Forum-blue.svg)](https://forum.virtualradarserver.co.uk/); Andrew Hill, whose [![flights.hillhome.org](https://img.shields.io/badge/flights-hillhome.org-ADD6FF.svg)](http://flights.hillhome.org/) site inspired me deeply; and all of the [![ADS-B Brasil](https://img.shields.io/badge/ADS--B-Brasil-lightgrey.svg)](http://bradsb.com/forum/index.php) community, including Ramon Martins and Jaime Hempke, which together maintain the excellent site [![TrafegoAereo.com](https://img.shields.io/badge/Trafego-Aereo-yellowgreen.svg)](http://trafegoaereo.com/).
 
 ##Contributions
