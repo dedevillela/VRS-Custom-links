@@ -122,8 +122,8 @@
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahNNumberRegistryDotFaaDotOrg,
                 displayOrder:       8,
-                canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.serial.val); },
-                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.serial.chg},
+                canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
+                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg},
                 title:              'N Number (FAA)',
                 buildUrl:           function(/** VRS.Aircraft */ aircraft) { return 'http://registry.faa.gov/AircraftInquiry/NNum_Results.aspx?NNumbertxt=' + ( aircraft.registration.val ); },
                 target:             'nnumberfaa'
