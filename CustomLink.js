@@ -1,13 +1,12 @@
-﻿<script type="text/javascript">
-    if(VRS && VRS.globalDispatch && VRS.serverConfig) {
-        VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
-
-          /////////////////////////
-          ///// JETPHOTOS.NET /////
-          /////////////////////////
-          VRS.LinkSite["ahJetPhotosDotNet"] = "jetphotosnet";
-          VRS.linkRenderHandlers.push(
-             new VRS.LinkRenderHandler({
+/** global: VRS */
+if(VRS && VRS.globalDispatch && VRS.serverConfig) {
+	VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
+		/////////////////////////
+		///// JETPHOTOS.NET /////
+		/////////////////////////
+		VRS.LinkSite["ahJetPhotosDotNet"] = "jetphotosnet";
+		VRS.linkRenderHandlers.push(
+			new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahJetPhotosDotNet,
                 displayOrder:       1,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
@@ -289,7 +288,5 @@
                 target:             'Eurocontrol'
              })
           );
-
-        });
-    }
-</script>
+	});
+}
