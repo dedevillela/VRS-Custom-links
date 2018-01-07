@@ -1,0 +1,15 @@
+{
+  "name": "VRS-Custom-links",
+  "version": "1.0.0",
+  "main": "CustomLinks.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Andre Villela",
+  "license": "MIT",
+  "description": "Custom links for Virtual Radar Server (a.k.a. VRS). This plug-in add new links to the Detail panel, that may help identify new aircraft or find pictures to the existing ones.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedevillela/VRS-Custom-links.git"
+  }
+}
