@@ -4,7 +4,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
 		/////////////////////////
 		///// JETPHOTOS.NET /////
 		/////////////////////////
-		VRS.LinkSite["ahJetPhotosDotNet"] = "jetphotosnet";
+		VRS.LinkSite.ahJetPhotosDotNet = "jetphotosnet";
 		VRS.linkRenderHandlers.push(
 			new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahJetPhotosDotNet,
@@ -20,7 +20,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           /////////////////////////////
           ///// PLANESPOTTERS.NET /////
           /////////////////////////////
-          VRS.LinkSite["ahPlaneSpottersDotNet"] = "planespottersnet";
+          VRS.LinkSite.ahPlaneSpottersDotNet = "planespottersnet";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahPlaneSpottersDotNet,
@@ -36,7 +36,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           /////////////////////////////
           /////// ONESPOTTER.COM //////
           /////////////////////////////
-          VRS.LinkSite["ahOneSpotterDotCom"] = "onespottercom";
+          VRS.LinkSite.ahOneSpotterDotCom = "onespottercom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahOneSpotterDotCom,
@@ -52,7 +52,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
 	  /////////////////////////////
           /////// ADSBEXCHANGE //////
           /////////////////////////////
-          VRS.LinkSite["ahADSBExchangeDotCom"] = "adsbexchangecom";
+          VRS.LinkSite.ahADSBExchangeDotCom = "adsbexchangecom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahADSBExchangeDotCom,
@@ -68,7 +68,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
 	  /////////////////////////////
           /////// TRAFEGOAEREO //////
           /////////////////////////////
-          VRS.LinkSite["ahTrafegoAereoDotCom"] = "trafegoaereocom";
+          VRS.LinkSite.ahTrafegoAereoDotCom = "trafegoaereocom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahTrafegoAereoDotCom,
@@ -84,7 +84,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           ///////////////////////////
           ///// FLIGHTAWARE.COM /////
           ///////////////////////////
-          VRS.LinkSite["ahFlightAwareDotCom"] = "flightawarecom";
+          VRS.LinkSite.ahFlightAwareDotCom = "flightawarecom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahFlightAwareDotCom,
@@ -100,7 +100,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           //////////////////////////
           //// REGISTRY.FAA.GOV ////
           //////////////////////////
-          VRS.LinkSite["ahSerialRegistryDotFaaDotOrg"] = "serialfaaorg";
+          VRS.LinkSite.ahSerialRegistryDotFaaDotOrg = "serialfaaorg";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahSerialRegistryDotFaaDotOrg,
@@ -116,7 +116,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           //////////////////////////
           //// REGISTRY.FAA.GOV ////
           //////////////////////////
-          VRS.LinkSite["ahNNumberRegistryDotFaaDotOrg"] = "nnumberfaaorg";
+          VRS.LinkSite.ahNNumberRegistryDotFaaDotOrg = "nnumberfaaorg";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahNNumberRegistryDotFaaDotOrg,
@@ -132,7 +132,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           ///////////////////////////
           ///// ANAC.GOV.BR/RAB /////
           ///////////////////////////
-          VRS.LinkSite["RAB_info"] = "anac";
+          VRS.LinkSite.RAB_info = "anac";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.RAB_info,
@@ -148,7 +148,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           ///////////////////////////
           /* JAKAFOTOGRAFIA.COM.BR */
           ///////////////////////////
-          VRS.LinkSite["ahJakaFotografia"] = "jakafotografia.com.br";
+          VRS.LinkSite.ahJakaFotografia = "jakafotografia.com.br";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahJakaFotografia,
@@ -164,7 +164,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           ///////////////////////////////
           /* GALERIA.PILOTODEAVIAO.COM */
           ///////////////////////////////
-          VRS.LinkSite["ahPilotoDeAviaoDotCom"] = "galeria.pilotodeaviao.com";
+          VRS.LinkSite.ahPilotoDeAviaoDotCom = "galeria.pilotodeaviao.com";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahPilotoDeAviaoDotCom,
@@ -180,7 +180,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           ////////////////////////////
           //////// FLICKR.COM ////////
           ////////////////////////////
-          VRS.LinkSite["ahFlickrDotCom"] = "flickr.com";
+          VRS.LinkSite.ahFlickrDotCom = "flickr.com";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahFlickrDotCom,
@@ -196,7 +196,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           /////////////////////////////
           /////// GOOGLE IMAGES ///////
           /////////////////////////////
-          VRS.LinkSite["ahGoogleImages"] = "images.google.com";
+          VRS.LinkSite.ahGoogleImages = "images.google.com";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahGoogleImages,
@@ -212,7 +212,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           ///////////////////////////////
           ////// AIRTEAMIMAGES.COM //////
           ///////////////////////////////
-          VRS.LinkSite["ahAirTeamImagesDotCom"] = "airteamimages.com";
+          VRS.LinkSite.ahAirTeamImagesDotCom = "airteamimages.com";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahAirTeamImagesDotCom,
@@ -228,7 +228,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           ////////////////////////
           /////// LKPD.INFO //////
           ////////////////////////
-          VRS.LinkSite["ahLKPDDotInfo"] = "lkpdinfo";
+          VRS.LinkSite.ahLKPDDotInfo = "lkpdinfo";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahLKPDDotInfo,
@@ -244,7 +244,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           //////////////////////////
           /// AVIATIONCORNER.NET ///
           //////////////////////////
-          VRS.LinkSite["ahAviationCornerDotNet"] = "aviationcornernet";
+          VRS.LinkSite.ahAviationCornerDotNet = "aviationcornernet";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahAviationCornerDotNet,
@@ -260,7 +260,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           ////////////////////////////
           /// PLANESPOTTERSHUB.COM ///
           ////////////////////////////
-          VRS.LinkSite["ahPlaneSpottersHubDotCom"] = "planespottershubcom";
+          VRS.LinkSite.ahPlaneSpottersHubDotCom = "planespottershubcom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahPlaneSpottersHubDotCom,
@@ -276,7 +276,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
           //////////////////////////
           ///// EUROCONTROL.IT /////
           //////////////////////////
-          VRS.LinkSite["ahEuroControl"] = "contentzone.eurocontrol.int/";
+          VRS.LinkSite.ahEuroControl = "contentzone.eurocontrol.int/";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
                 linkSite:           VRS.LinkSite.ahEuroControl,
