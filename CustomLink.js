@@ -26,7 +26,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
                 linkSite:           VRS.LinkSite.ahPlaneSpottersDotNet,
                 displayOrder:       2,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
-                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg},
+                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'Planespotters',
                 buildUrl:           function(/** VRS.Aircraft */ aircraft) { return 'https://www.planespotters.net/Aviation_Photos/search.php?reg=' + ( aircraft.registration.val ? (!isNaN(aircraft.registration.val) && aircraft.operatorIcao.val ? VRS.stringUtility.htmlEscape(aircraft.formatOperatorIcao() + aircraft.formatRegistration()) : VRS.stringUtility.htmlEscape(aircraft.formatRegistration())) : VRS.stringUtility.htmlEscape(aircraft.formatRegistration(false)) ); },
                 target:             'planespotters'
@@ -42,7 +42,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
                 linkSite:           VRS.LinkSite.ahOneSpotterDotCom,
                 displayOrder:       3,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.icao.val); },
-                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.icao.chg},
+                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.icao.chg; },
                 title:              'OneSpotter',
                 buildUrl:           function(/** VRS.Aircraft */ aircraft) { return 'http://onespotter.com/aircrafts/search?text=' + ( aircraft.icao.val ); },
                 target:             'onespotter'
@@ -58,7 +58,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
                 linkSite:           VRS.LinkSite.ahADSBExchangeDotCom,
                 displayOrder:       4,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.icao.val); },
-                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.icao.chg},
+                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.icao.chg; },
                 title:              'ADS-B Exchange',
                 buildUrl:           function(/** VRS.Aircraft */ aircraft) { return 'http://database.adsbexchange.com/VirtualRadar/desktopReport.html?icao-Q=' + ( aircraft.icao.val ) + "&sort1=date&sortAsc1=0&sort2=none&notOnline=0"; },
                 target:             'adsbexchange'
@@ -74,7 +74,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
                 linkSite:           VRS.LinkSite.ahTrafegoAereoDotCom,
                 displayOrder:       5,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.icao.val); },
-                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.icao.chg},
+                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.icao.chg; },
                 title:              'TrafegoAereo',
                 buildUrl:           function(/** VRS.Aircraft */ aircraft) { return 'http://177.137.98.27:8282/VirtualRadar/desktopReport.html?icao-Q=' + ( aircraft.icao.val ) + "&sort1=date&sortAsc1=0&sort2=none&notOnline=0"; },
                 target:             'trafegoaereo'
@@ -106,7 +106,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
                 linkSite:           VRS.LinkSite.ahSerialRegistryDotFaaDotOrg,
                 displayOrder:       7,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.serial.val); },
-                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.serial.chg},
+                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.serial.chg; },
                 title:              'Serial (FAA)',
                 buildUrl:           function(/** VRS.Aircraft */ aircraft) { return 'http://registry.faa.gov/AircraftInquiry/Serial_Results.aspx?serialtxt=' + ( aircraft.serial.val ) + '&sort_option=1&PageNo=1'; },
                 target:             'serialfaa'
@@ -122,7 +122,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
                 linkSite:           VRS.LinkSite.ahNNumberRegistryDotFaaDotOrg,
                 displayOrder:       8,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
-                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg},
+                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'N Number (FAA)',
                 buildUrl:           function(/** VRS.Aircraft */ aircraft) { return 'http://registry.faa.gov/AircraftInquiry/NNum_Results.aspx?NNumbertxt=' + ( aircraft.registration.val ); },
                 target:             'nnumberfaa'
@@ -234,7 +234,7 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
                 linkSite:           VRS.LinkSite.ahLKPDDotInfo,
                 displayOrder:       15,
                 canLinkAircraft:    function(/** VRS.Aircraft */ aircraft) { return aircraft && (aircraft.registration.val); },
-                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg},
+                hasChanged:         function(/** VRS.Aircraft */ aircraft) { return aircraft.registration.chg; },
                 title:              'LKPDinfo',
                 buildUrl:           function(/** VRS.Aircraft */ aircraft) { return 'http://www.lkpd.info/search.php?registration=' + ( aircraft.registration.val ? (!isNaN(aircraft.registration.val) && aircraft.operatorIcao.val ? VRS.stringUtility.htmlEscape(aircraft.formatOperatorIcao() + aircraft.formatRegistration()) : VRS.stringUtility.htmlEscape(aircraft.formatRegistration())) : VRS.stringUtility.htmlEscape(aircraft.formatRegistration(false)) ); },
                 target:             'lkpdinfo'
