@@ -22,22 +22,36 @@
 
 Custom links for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Virtual Radar Server's Homepage") (a.k.a. VRS). This plug-in add new links to the Detail panel, that may help identify new aircraft or find pictures to the existing ones.
 
-##Prerequisites
+<h2>
+  Prerequisites
+</h2>
+
 - VRS installed and running
 - VRS Custom Content Plugin installed and enabled.
 
-##Instructions
+<h2>
+  Instructions
+</h2>
+
 - Clone or download the repo into a directory on the machine where VRS is running. Ensure you do not place the files under the Virtual Radar Server directory, since they could be overwritten on upgrades.
 - Configure the VRS Custom Content Plugin to add the "CustomLink.js" file into the END of HEAD portion of the pages, with an " * " (without quotes and spaces) on the Address field, so it will populate the links on all pages (including reports).
 - Enjoy!
 
-##Acknowledgments
+<h2>
+  Acknowledgments
+</h2>
+
 This project was only possible thanks to the invaluable help of many individuals and communities, especially the creator of the VRS, Andrew Whewell, always solicitous in [![his forum](https://img.shields.io/badge/VRS-Forum-blue.svg)](https://forum.virtualradarserver.co.uk/); Andrew Hill, whose [![flights.hillhome.org](https://img.shields.io/badge/flights-hillhome.org-ADD6FF.svg)](http://flights.hillhome.org/) site inspired me deeply; and all of the [![ADS-B Brasil](https://img.shields.io/badge/ADS--B-Brasil-lightgrey.svg)](http://bradsb.com/forum/index.php) community, including Ramon Martins and Jaime Hempke, which together maintain the excellent site [![TrafegoAereo.com](https://img.shields.io/badge/Trafego-Aereo-yellowgreen.svg)](http://trafegoaereo.com/).
 
-##Contributions
+<h2>
+  Contributions
+</h2>
+
 Feel free to download and share these files, suggest corrections, or send requests for more aviation links, as I'm constantly updating this repository with new usefull resources.
 
-##Other Projects
+<h2>
+  Other Projects
+</h2>
 
 [![VRS Operator Flags](https://img.shields.io/badge/VRS-Operator_Flags-red.svg)](https://github.com/dedevillela/VRS-Operator-Flags)
 
