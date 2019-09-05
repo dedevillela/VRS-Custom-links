@@ -1,4 +1,25 @@
-# VRS-Custom-links 🛩️ [![MIT License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE) [![VRS version 2.4](https://img.shields.io/badge/VRS-v2.4-blue.svg)](http://virtualradarserver.co.uk/Download.aspx) [![Build Status](https://travis-ci.org/dedevillela/VRS-Custom-links.svg?branch=master)](https://travis-ci.org/dedevillela/VRS-Custom-links)  [![GitHub release](https://img.shields.io/github/release/dedevillela/VRS-Custom-links.svg)](https://github.com/dedevillela/VRS-Custom-links/releases) [![Say Thanks!](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/dedevillela)
+<h1 align="center">
+  VRS-Custom-links 🛩️ 
+</h1>
+
+<p align="center">
+  <a href="https://saythanks.io/to/amitmerchant1990">
+      <img src="https://img.shields.io/badge/License-MIT-red.svg">
+  </a>
+  <a href="http://virtualradarserver.co.uk/Download.aspx">
+      <img src="https://img.shields.io/badge/VRS-v2.4-blue.svg">
+  </a>
+  <a href="https://travis-ci.org/dedevillela/VRS-Custom-links">
+      <img src="https://travis-ci.org/dedevillela/VRS-Custom-links.svg?branch=master">
+  </a>
+  <a href="https://github.com/dedevillela/VRS-Custom-links/releases">
+      <img src="https://img.shields.io/github/release/dedevillela/VRS-Custom-links.svg">
+  </a>
+  <a href="https://saythanks.io/to/dedevillela">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+</p>
+
 Custom links for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Virtual Radar Server's Homepage") (a.k.a. VRS). This plug-in add new links to the Detail panel, that may help identify new aircraft or find pictures to the existing ones.
 
 ##Prerequisites
