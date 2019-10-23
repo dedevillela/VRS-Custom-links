@@ -34,6 +34,7 @@ Custom links for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Vi
 </h2>
 
 - Clone or download the repo into a directory on the machine where VRS is running. Ensure you do not place the files under the Virtual Radar Server directory, since they could be overwritten on upgrades.
+- Open a text editor and modify the file "CustomLink.js" so that the first line of code begins with <script> and the last line ends with </script>, and save the file.
 - Configure the VRS Custom Content Plugin to add the "CustomLink.js" file into the END of HEAD portion of the pages, with an " * " (without quotes and spaces) on the Address field, so it will populate the links on all pages (including reports).
 - Enjoy!
 
