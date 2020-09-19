@@ -15,6 +15,9 @@
   <a href="https://github.com/dedevillela/VRS-Custom-links/releases">
       <img src="https://img.shields.io/github/release/dedevillela/VRS-Custom-links.svg">
   </a>
+  <a href="#">
+		<img src="https://views.whatilearened.today/views/github/dedevillela/VRS-Custom-links.svg">
+	</a>
   <a href="https://saythanks.io/to/dedevillela">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
