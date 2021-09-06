@@ -1,9 +1,6 @@
 /** global: VRS */
 if(VRS && VRS.globalDispatch && VRS.serverConfig) {
 	VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
-		/////////////////////////
-		///// JETPHOTOS.NET /////
-		/////////////////////////
 		VRS.LinkSite.ahJetPhotosDotNet = "jetphotosnet";
 		VRS.linkRenderHandlers.push(
 			new VRS.LinkRenderHandler({
@@ -17,9 +14,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          /////////////////////////////
-          ///// PLANESPOTTERS.NET /////
-          /////////////////////////////
           VRS.LinkSite.ahPlaneSpottersDotNet = "planespottersnet";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -33,9 +27,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          /////////////////////////////
-          /////// ONESPOTTER.COM //////
-          /////////////////////////////
           VRS.LinkSite.ahOneSpotterDotCom = "onespottercom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -49,9 +40,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-	  /////////////////////////////
-          /////// ADSBEXCHANGE //////
-          /////////////////////////////
           VRS.LinkSite.ahADSBExchangeDotCom = "adsbexchangecom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -65,9 +53,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-	  /////////////////////////////
-          /////// TRAFEGOAEREO //////
-          /////////////////////////////
           VRS.LinkSite.ahTrafegoAereoDotCom = "trafegoaereocom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -81,9 +66,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          ///////////////////////////
-          ///// FLIGHTAWARE.COM /////
-          ///////////////////////////
           VRS.LinkSite.ahFlightAwareDotCom = "flightawarecom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -97,9 +79,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          //////////////////////////
-          //// REGISTRY.FAA.GOV ////
-          //////////////////////////
           VRS.LinkSite.ahSerialRegistryDotFaaDotOrg = "serialfaaorg";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -113,9 +92,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          //////////////////////////
-          //// REGISTRY.FAA.GOV ////
-          //////////////////////////
           VRS.LinkSite.ahNNumberRegistryDotFaaDotOrg = "nnumberfaaorg";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -129,9 +105,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          ///////////////////////////
-          ///// ANAC.GOV.BR/RAB /////
-          ///////////////////////////
           VRS.LinkSite.RAB_info = "anac";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -145,9 +118,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          ///////////////////////////
-          /* JAKAFOTOGRAFIA.COM.BR */
-          ///////////////////////////
           VRS.LinkSite.ahJakaFotografia = "jakafotografia.com.br";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -161,9 +131,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          ///////////////////////////////
-          /* GALERIA.PILOTODEAVIAO.COM */
-          ///////////////////////////////
           VRS.LinkSite.ahPilotoDeAviaoDotCom = "galeria.pilotodeaviao.com";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -177,9 +144,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          ////////////////////////////
-          //////// FLICKR.COM ////////
-          ////////////////////////////
           VRS.LinkSite.ahFlickrDotCom = "flickr.com";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -193,9 +157,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          /////////////////////////////
-          /////// GOOGLE IMAGES ///////
-          /////////////////////////////
           VRS.LinkSite.ahGoogleImages = "images.google.com";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -209,9 +170,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          ///////////////////////////////
-          ////// AIRTEAMIMAGES.COM //////
-          ///////////////////////////////
           VRS.LinkSite.ahAirTeamImagesDotCom = "airteamimages.com";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -225,9 +183,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          ////////////////////////
-          /////// LKPD.INFO //////
-          ////////////////////////
           VRS.LinkSite.ahLKPDDotInfo = "lkpdinfo";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -241,9 +196,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          //////////////////////////
-          /// AVIATIONCORNER.NET ///
-          //////////////////////////
           VRS.LinkSite.ahAviationCornerDotNet = "aviationcornernet";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -257,9 +209,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );
 
-          ////////////////////////////
-          /// PLANESPOTTERSHUB.COM ///
-          ////////////////////////////
           VRS.LinkSite.ahPlaneSpottersHubDotCom = "planespottershubcom";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
@@ -273,9 +222,6 @@ if(VRS && VRS.globalDispatch && VRS.serverConfig) {
              })
           );         
 
-          //////////////////////////
-          ///// EUROCONTROL.IT /////
-          //////////////////////////
           VRS.LinkSite.ahEuroControl = "contentzone.eurocontrol.int/";
           VRS.linkRenderHandlers.push(
              new VRS.LinkRenderHandler({
