@@ -1,6 +1,6 @@
 /** global: VRS */
 if(VRS && VRS.globalDispatch && VRS.serverConfig) {
-	VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
+	VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function() {
 		VRS.LinkSite.ahJetPhotosDotNet = "jetphotosnet";
 		VRS.linkRenderHandlers.push(
 			new VRS.LinkRenderHandler({
